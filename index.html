@@ -1,0 +1,2158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purr & Brew Café - Premium Hybrid Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-coffee"></i>
+                <span>Purr & Brew Café</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#facilities" class="nav-link">Facilities</a></li>
+                <li><a href="#cats" class="nav-link">Our Cats</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#order" class="nav-link">Order Online</a></li>
+                <li><a href="#loyalty" class="nav-link">Loyalty</a></li>
+               
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#reservation" class="nav-link">Reservation</a></li>
+                <li><button class="btn-primary">Book Now</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1600&h=900&fit=crop" alt="Cafe Interior">
+            </div>
+            <div class="hero-slide">
+                <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1600&h=900&fit=crop" alt="Coffee">
+            </div>
+            <div class="hero-slide">
+                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1600&h=900&fit=crop" alt="Cafe View">
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Experience<br>Luxury & Comfort</h1>
+            <p class="hero-subtitle">Premium hybrid café dengan VIP meeting room, cat lounge, dan pemandangan spektakuler</p>
+            <div class="hero-buttons">
+                <a href="#facilities" class="btn-primary btn-large">Explore Now</a>
+                <a href="#menu" class="btn-secondary btn-large">View Menu</a>
+            </div>
+        </div>
+        <button class="slider-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        <div class="slider-indicators" id="sliderIndicators"></div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Facilities</h2>
+                <p class="section-subtitle">Fasilitas kelas dunia untuk pengalaman terbaik Anda</p>
+            </div>
+            <div class="facilities-grid">
+                <!-- VIP Meeting Room -->
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop" alt="VIP Meeting Room">
+                        <div class="facility-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <div class="facility-content">
+                        <h3 class="facility-title">VIP Meeting Room</h3>
+                        <p class="facility-desc">Ruang meeting eksklusif dengan fasilitas premium untuk meeting bisnis Anda</p>
+                    </div>
+                </div>
+
+                <!-- Cat Lounge -->
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=400&fit=crop" alt="Cat Lounge">
+                        <div class="facility-icon">
+                            <i class="fas fa-cat"></i>
+                        </div>
+                    </div>
+                    <div class="facility-content">
+                        <h3 class="facility-title">Cat Lounge</h3>
+                        <p class="facility-desc">Area bermain kucing yang nyaman dan bersih dengan kucing-kucing ramah</p>
+                    </div>
+                </div>
+
+                <!-- Scenic View -->
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&h=400&fit=crop" alt="Scenic View">
+                        <div class="facility-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                    <div class="facility-content">
+                        <h3 class="facility-title">Scenic View</h3>
+                        <p class="facility-desc">Pemandangan menakjubkan yang sempurna untuk bersantai sambil menikmati kopi</p>
+                    </div>
+                </div>
+
+                <!-- High-Speed WiFi -->
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop" alt="WiFi">
+                        <div class="facility-icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                    </div>
+                    <div class="facility-content">
+                        <h3 class="facility-title">High-Speed WiFi</h3>
+                        <p class="facility-desc">Koneksi internet super cepat untuk produktivitas maksimal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our Cats Section -->
+    <section id="cats" class="cats-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet Our Furry Friends</h2>
+                <p class="section-subtitle">Get to know our adorable residents who can't wait to meet you!</p>
+            </div>
+
+            <!-- Cat Stats -->
+            <div class="cat-stats">
+                <div class="stat-item">
+                    <i class="fas fa-cat"></i>
+                    <h3>8 Cats</h3>
+                    <p>Friendly Residents</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-heart"></i>
+                    <h3>100% Love</h3>
+                    <p>Guaranteed Cuddles</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-paw"></i>
+                    <h3>All Vaccinated</h3>
+                    <p>Healthy & Clean</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Safe Environment</h3>
+                    <p>Supervised Play</p>
+                </div>
+            </div>
+
+            <!-- Cat Gender Filter -->
+            <div class="cat-filter">
+                <button class="cat-filter-btn active" data-gender="all">
+                    <i class="fas fa-paw"></i> All Cats
+                </button>
+                <button class="cat-filter-btn" data-gender="male">
+                    <i class="fas fa-mars"></i> Boy Cats
+                </button>
+                <button class="cat-filter-btn" data-gender="female">
+                    <i class="fas fa-venus"></i> Girl Cats
+                </button>
+            </div>
+
+            <!-- Cat Carousel Container -->
+            <div class="cat-carousel-wrapper">
+                <button class="cat-carousel-nav prev" id="catPrevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="cat-carousel" id="catCarousel">
+                    <!-- Cat 1 - Luna (Female) -->
+                    <div class="cat-card" data-cat="1" data-gender="female">
+                        <div class="cat-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=600&fit=crop" alt="Luna the Cat" class="cat-image">
+                            <div class="cat-badge">
+                                <i class="fas fa-star"></i> Most Popular
+                            </div>
+                            <div class="cat-gender-tag female">
+                                <i class="fas fa-venus"></i>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <div class="cat-header">
+                                <h3 class="cat-name">Luna 🌙</h3>
+                                <span class="cat-age">2 years</span>
+                            </div>
+                            <p class="cat-breed"><i class="fas fa-dna"></i> Persian</p>
+                            <p class="cat-personality">
+                                The queen of the cafe! Luna loves being the center of attention and will pose for your photos. She's gentle and perfect for first-timers.
+                            </p>
+                            <div class="cat-traits">
+                                <span class="trait">Photogenic</span>
+                                <span class="trait">Gentle</span>
+                                <span class="trait">Cuddly</span>
+                            </div>
+                            <button class="cat-expand-btn" onclick="toggleCatDetails(1)">
+                                <i class="fas fa-chevron-down"></i> More About Luna
+                            </button>
+                            <div class="cat-extended" id="cat-extended-1">
+                                <div class="extended-content">
+                                    <h4><i class="fas fa-heart"></i> Fun Facts:</h4>
+                                    <ul>
+                                        <li>Loves tuna treats more than anything!</li>
+                                        <li>Her favorite nap spot is by the window</li>
+                                        <li>Professional biscuit maker (kneading expert)</li>
+                                        <li>Gets along great with kids</li>
+                                    </ul>
+                                    <div class="cat-schedule">
+                                        <i class="fas fa-clock"></i> <strong>Best time to meet:</strong> Mornings (8-11 AM)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 2 - Milo (Male) -->
+                    <div class="cat-card" data-cat="2" data-gender="male">
+                        <div class="cat-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=600&fit=crop" alt="Milo the Cat" class="cat-image">
+                            <div class="cat-badge energetic">
+                                <i class="fas fa-bolt"></i> Most Playful
+                            </div>
+                            <div class="cat-gender-tag male">
+                                <i class="fas fa-mars"></i>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <div class="cat-header">
+                                <h3 class="cat-name">Milo ⚡</h3>
+                                <span class="cat-age">1.5 years</span>
+                            </div>
+                            <p class="cat-breed"><i class="fas fa-dna"></i> Orange Tabby</p>
+                            <p class="cat-personality">
+                                The energizer bunny of our cafe! Milo is always ready to play and loves chasing feather toys. Perfect for interactive fun!
+                            </p>
+                            <div class="cat-traits">
+                                <span class="trait">Energetic</span>
+                                <span class="trait">Playful</span>
+                                <span class="trait">Adventurous</span>
+                            </div>
+                            <button class="cat-expand-btn" onclick="toggleCatDetails(2)">
+                                <i class="fas fa-chevron-down"></i> More About Milo
+                            </button>
+                            <div class="cat-extended" id="cat-extended-2">
+                                <div class="extended-content">
+                                    <h4><i class="fas fa-heart"></i> Fun Facts:</h4>
+                                    <ul>
+                                        <li>Champion at catching toy mice</li>
+                                        <li>Loves the cat tunnel obstacle course</li>
+                                        <li>Will bring you toys to throw for him</li>
+                                        <li>Fastest zoomies in the cafe!</li>
+                                    </ul>
+                                    <div class="cat-schedule">
+                                        <i class="fas fa-clock"></i> <strong>Best time to meet:</strong> Afternoons (2-5 PM)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 3 - Bella (Female) -->
+                    <div class="cat-card" data-cat="3" data-gender="female">
+                        <div class="cat-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&h=600&fit=crop" alt="Bella the Cat" class="cat-image">
+                            <div class="cat-badge chill">
+                                <i class="fas fa-spa"></i> Most Chill
+                            </div>
+                            <div class="cat-gender-tag female">
+                                <i class="fas fa-venus"></i>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <div class="cat-header">
+                                <h3 class="cat-name">Bella 🌸</h3>
+                                <span class="cat-age">3 years</span>
+                            </div>
+                            <p class="cat-breed"><i class="fas fa-dna"></i> Ragdoll</p>
+                            <p class="cat-personality">
+                                The ultimate cuddle buddy! Bella lives up to her Ragdoll breed and will literally melt in your arms. Perfect for relaxation therapy!
+                            </p>
+                            <div class="cat-traits">
+                                <span class="trait">Calm</span>
+                                <span class="trait">Affectionate</span>
+                                <span class="trait">Lap Cat</span>
+                            </div>
+                            <button class="cat-expand-btn" onclick="toggleCatDetails(3)">
+                                <i class="fas fa-chevron-down"></i> More About Bella
+                            </button>
+                            <div class="cat-extended" id="cat-extended-3">
+                                <div class="extended-content">
+                                    <h4><i class="fas fa-heart"></i> Fun Facts:</h4>
+                                    <ul>
+                                        <li>Expert at stress relief purring therapy</li>
+                                        <li>Will follow you around for pets</li>
+                                        <li>Loves gentle head scratches</li>
+                                        <li>Perfect reading/working companion</li>
+                                    </ul>
+                                    <div class="cat-schedule">
+                                        <i class="fas fa-clock"></i> <strong>Best time to meet:</strong> Anytime! Always ready for cuddles
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 4 - Shadow (Male) -->
+                    <div class="cat-card" data-cat="4" data-gender="male">
+                        <div class="cat-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=600&h=600&fit=crop" alt="Shadow the Cat" class="cat-image">
+                            <div class="cat-badge mysterious">
+                                <i class="fas fa-mask"></i> Most Mysterious
+                            </div>
+                            <div class="cat-gender-tag male">
+                                <i class="fas fa-mars"></i>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <div class="cat-header">
+                                <h3 class="cat-name">Shadow 🌑</h3>
+                                <span class="cat-age">4 years</span>
+                            </div>
+                            <p class="cat-breed"><i class="fas fa-dna"></i> Black Cat</p>
+                            <p class="cat-personality">
+                                Our handsome gentleman! Shadow is selective with his affection, but once you earn his trust, you've made a friend for life.
+                            </p>
+                            <div class="cat-traits">
+                                <span class="trait">Independent</span>
+                                <span class="trait">Observant</span>
+                                <span class="trait">Loyal</span>
+                            </div>
+                            <button class="cat-expand-btn" onclick="toggleCatDetails(4)">
+                                <i class="fas fa-chevron-down"></i> More About Shadow
+                            </button>
+                            <div class="cat-extended" id="cat-extended-4">
+                                <div class="extended-content">
+                                    <h4><i class="fas fa-heart"></i> Fun Facts:</h4>
+                                    <ul>
+                                        <li>Loves high perches with great views</li>
+                                        <li>Master of hide and seek</li>
+                                        <li>Prefers calm, quiet visitors</li>
+                                        <li>Once you gain his trust, he's a sweetheart</li>
+                                    </ul>
+                                    <div class="cat-schedule">
+                                        <i class="fas fa-clock"></i> <strong>Best time to meet:</strong> Early mornings or late evenings
+                                    </div>
+                                </div>5
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 5 - Whiskers (Male) -->
+                    <div class="cat-card" data-cat="5" data-gender="male">
+                        <div class="cat-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=600&h=600&fit=crop" alt="Whiskers the Cat" class="cat-image">
+                            <div class="cat-badge foodie">
+                                <i class="fas fa-utensils"></i> Biggest Foodie
+                            </div>
+                            <div class="cat-gender-tag male">
+                                <i class="fas fa-mars"></i>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <div class="cat-header">
+                                <h3 class="cat-name">Whiskers 🥘</h3>
+                                <span class="cat-age">5 years</span>
+                            </div>
+                            <p class="cat-breed"><i class="fas fa-dna"></i> British Shorthair</p>
+                            <p class="cat-personality">
+                                Our chunky boy! Whiskers is very food-motivated and will become your best friend if you have treats. The cafe's official taste tester!
+                            </p>
+                            <div class="cat-traits">
+                                <span class="trait">Food-Motivated</span>
+                                <span class="trait">Friendly</span>
+                                <span class="trait">Chonky</span>
+                            </div>
+                            <button class="cat-expand-btn" onclick="toggleCatDetails(5)">
+                                <i class="fas fa-chevron-down"></i> More About Whiskers
+                            </button>
+                            <div class="cat-extended" id="cat-extended-5">
+                                <div class="extended-content">
+                                    <h4><i class="fas fa-heart"></i> Fun Facts:</h4>
+                                    <ul>
+                                        <li>Will do tricks for treats</li>
+                                        <li>Loves salmon treats the most</li>
+                                        <li>Currently on a diet (don't tell him)</li>
+                                        <li>Best at begging with his big eyes</li>
+                                    </ul>
+                                    <div class="cat-schedule">
+                                        <i class="fas fa-clock"></i> <strong>Best time to meet:</strong> Meal times! Always around for snacks
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 6 - Coco (Female) -->
+                    <div class="cat-card" data-cat="6" data-gender="female">
+                        <div class="cat-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=600&h=600&fit=crop" alt="Coco the Cat" class="cat-image">
+                            <div class="cat-badge sweet">
+                                <i class="fas fa-candy-cane"></i> Sweetest
+                            </div>
+                            <div class="cat-gender-tag female">
+                                <i class="fas fa-venus"></i>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <div class="cat-header">
+                                <h3 class="cat-name">Coco 🍫</h3>
+                                <span class="cat-age">1 year</span>
+                            </div>
+                            <p class="cat-breed"><i class="fas fa-dna"></i> Siamese</p>
+                            <p class="cat-personality">
+                                Our social butterfly! Coco is curious, chatty, and loves making new friends. She'll greet you at the door and "talk" your ear off!
+                            </p>
+                            <div class="cat-traits">
+                                <span class="trait">Vocal</span>
+                                <span class="trait">Social</span>
+                                <span class="trait">Curious</span>
+                            </div>
+                            <button class="cat-expand-btn" onclick="toggleCatDetails(6)">
+                                <i class="fas fa-chevron-down"></i> More About Coco
+                            </button>
+                            <div class="cat-extended" id="cat-extended-6">
+                                <div class="extended-content">
+                                    <h4><i class="fas fa-heart"></i> Fun Facts:</h4>
+                                    <ul>
+                                        <li>Has a meow for every occasion</li>
+                                        <li>Loves meeting new people</li>
+                                        <li>Will help you "work" on your laptop</li>
+                                        <li>Expert at making guests feel welcome</li>
+                                    </ul>
+                                    <div class="cat-schedule">
+                                        <i class="fas fa-clock"></i> <strong>Best time to meet:</strong> Peak hours! She loves the buzz
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 7 - Simba (Male) -->
+                    <div class="cat-card" data-cat="7" data-gender="male">
+                        <div class="cat-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?w=600&h=600&fit=crop" alt="Simba the Cat" class="cat-image">
+                            <div class="cat-badge brave">
+                                <i class="fas fa-crown"></i> King of Cafe
+                            </div>
+                            <div class="cat-gender-tag male">
+                                <i class="fas fa-mars"></i>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <div class="cat-header">
+                                <h3 class="cat-name">Simba 👑</h3>
+                                <span class="cat-age">6 years</span>
+                            </div>
+                            <p class="cat-breed"><i class="fas fa-dna"></i> Maine Coon</p>
+                            <p class="cat-personality">
+                                The gentle giant! Despite his large size, Simba is incredibly gentle and patient. Perfect with kids and loves being admired from his throne.
+                            </p>
+                            <div class="cat-traits">
+                                <span class="trait">Majestic</span>
+                                <span class="trait">Patient</span>
+                                <span class="trait">Gentle Giant</span>
+                            </div>
+                            <button class="cat-expand-btn" onclick="toggleCatDetails(7)">
+                                <i class="fas fa-chevron-down"></i> More About Simba
+                            </button>
+                            <div class="cat-extended" id="cat-extended-7">
+                                <div class="extended-content">
+                                    <h4><i class="fas fa-heart"></i> Fun Facts:</h4>
+                                    <ul>
+                                        <li>Weighs 7kg but acts like a kitten</li>
+                                        <li>Loves being brushed</li>
+                                        <li>His purr is like a motor engine</li>
+                                        <li>Best for photos - he poses naturally!</li>
+                                    </ul>
+                                    <div class="cat-schedule">
+                                        <i class="fas fa-clock"></i> <strong>Best time to meet:</strong> Mornings when he holds court
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 8 - Nala (Female) -->
+                    <div class="cat-card" data-cat="8" data-gender="female">
+                        <div class="cat-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=600&h=600&fit=crop" alt="Nala the Cat" class="cat-image">
+                            <div class="cat-badge newest">
+                                <i class="fas fa-star"></i> Newest Member
+                            </div>
+                            <div class="cat-gender-tag female">
+                                <i class="fas fa-venus"></i>
+                            </div>
+                        </div>
+                        <div class="cat-info">
+                            <div class="cat-header">
+                                <h3 class="cat-name">Nala ✨</h3>
+                                <span class="cat-age">6 months</span>
+                            </div>
+                            <p class="cat-breed"><i class="fas fa-dna"></i> Scottish Fold</p>
+                            <p class="cat-personality">
+                                Our adorable kitten! Nala is still learning the ropes but is full of energy and cuteness. Everything is a toy to her, including your shoelaces!
+                            </p>
+                            <div class="cat-traits">
+                                <span class="trait">Kitten Energy</span>
+                                <span class="trait">Cute</span>
+                                <span class="trait">Learning</span>
+                            </div>
+                            <button class="cat-expand-btn" onclick="toggleCatDetails(8)">
+                                <i class="fas fa-chevron-down"></i> More About Nala
+                            </button>
+                            <div class="cat-extended" id="cat-extended-8">
+                                <div class="extended-content">
+                                    <h4><i class="fas fa-heart"></i> Fun Facts:</h4>
+                                    <ul>
+                                        <li>Learning from the older cats</li>
+                                        <li>Has the cutest folded ears</li>
+                                        <li>Loves playing with Milo</li>
+                                        <li>Still figuring out how to cat properly!</li>
+                                    </ul>
+                                    <div class="cat-schedule">
+                                        <i class="fas fa-clock"></i> <strong>Best time to meet:</strong> Playtime! (Most of the day)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="cat-carousel-nav next" id="catNextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="cat-carousel-indicators" id="catIndicators"></div>
+
+            <!-- Cat Lounge CTA -->
+            <div class="cat-lounge-cta">
+                <div class="cta-content">
+                    <h3><i class="fas fa-paw"></i> Ready to Meet Them?</h3>
+                    <p>Book your cat lounge experience now and spend quality time with our furry friends!</p>
+                    <div class="cta-buttons">
+                        <a href="#reservation" class="btn-primary btn-large">
+                            <i class="fas fa-calendar-check"></i> Book Cat Lounge
+                        </a>
+                        <a href="https://wa.me/6281234567890?text=Halo!%20Saya%20ingin%20tanya%20tentang%20Cat%20Lounge" 
+                           class="btn-secondary btn-large" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Ask About Cats
+                        </a>
+                    </div>
+                    <div class="cta-stats">
+                        <div class="stat"><strong>4</strong> Boy Cats</div>
+                        <div class="stat-divider">•</div>
+                        <div class="stat"><strong>4</strong> Girl Cats</div>
+                        <div class="stat-divider">•</div>
+                        <div class="stat"><strong>8</strong> Total Friends</div>
+                    </div>
+                </div>
+                <div class="cta-info">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Cat Lounge Hours</strong>
+                            <p>Daily: 10:00 AM - 9:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-tag"></i>
+                        <div>
+                            <strong>Entry Fee</strong>
+                            <p>Rp 50.000 (includes 1 drink)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <strong>Capacity</strong>
+                            <p>Max 15 people at a time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Signature Menu</h2>
+                <p class="section-subtitle">Kuliner premium dengan cita rasa istimewa</p>
+            </div>
+            
+            <!-- Menu Filter -->
+            <div class="menu-filter">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th"></i> All Menu
+                </button>
+                <button class="filter-btn" data-filter="coffee">
+                    <i class="fas fa-coffee"></i> Coffee
+                </button>
+                <button class="filter-btn" data-filter="non-coffee">
+                    <i class="fas fa-mug-hot"></i> Non-Coffee
+                </button>
+                <button class="filter-btn" data-filter="food">
+                    <i class="fas fa-utensils"></i> Food
+                </button>
+                <button class="filter-btn" data-filter="dessert">
+                    <i class="fas fa-ice-cream"></i> Dessert
+                </button>
+            </div>
+
+            <!-- Menu Carousel Container -->
+            <div class="menu-carousel-wrapper">
+                <button class="carousel-nav prev" id="menuPrevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="menu-carousel" id="menuCarousel">
+                    <!-- Menu Item 1 - Coffee -->
+                    <div class="menu-card" data-menu="1" data-category="coffee">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=500&h=500&fit=crop" alt="Signature Espresso">
+                            <span class="menu-badge coffee">Coffee</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Signature Espresso</h3>
+                            <p class="menu-price">Rp 45.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(1)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-1">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-coffee"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(1)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Espresso premium</strong> yang dibuat dari biji kopi Arabica pilihan dari Aceh Gayo. 
+                                    Dipanggang dengan teknik medium roast untuk menghasilkan rasa yang kuat namun tidak pahit.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-leaf"></i>
+                                        <span>100% Arabica</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>Medium Roast</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-award"></i>
+                                        <span>Premium Quality</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 2 - Coffee -->
+                    <div class="menu-card" data-menu="2" data-category="coffee">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&h=500&fit=crop" alt="Cappuccino Premium">
+                            <span class="menu-badge coffee">Coffee</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Cappuccino Premium</h3>
+                            <p class="menu-price">Rp 50.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(2)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-2">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-coffee"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(2)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Cappuccino klasik</strong> dengan perpaduan sempurna antara espresso kuat, 
+                                    steamed milk yang creamy, dan foam halus dengan latte art yang indah.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-mug-hot"></i>
+                                        <span>Perfect Ratio</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-heart"></i>
+                                        <span>Latte Art</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-star"></i>
+                                        <span>Barista Choice</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 3 - Coffee -->
+                    <div class="menu-card" data-menu="3" data-category="coffee">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&h=500&fit=crop" alt="Caffe Latte">
+                            <span class="menu-badge coffee">Coffee</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Caffe Latte</h3>
+                            <p class="menu-price">Rp 48.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(3)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-3">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-coffee"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(3)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Caffe latte smooth</strong> dengan kombinasi espresso dan steamed milk 
+                                    yang creamy. Cocok untuk yang suka kopi dengan rasa lebih mild dan tekstur lembut.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-heart"></i>
+                                        <span>Smooth Taste</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-mug-hot"></i>
+                                        <span>Creamy Texture</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <span>Customer Favorite</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 4 - Non-Coffee -->
+                    <div class="menu-card" data-menu="4" data-category="non-coffee">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=500&h=500&fit=crop" alt="Matcha Latte">
+                            <span class="menu-badge non-coffee">Non-Coffee</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Matcha Latte</h3>
+                            <p class="menu-price">Rp 48.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(4)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-4">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-leaf"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(4)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Matcha premium Jepang</strong> grade A yang dicampur dengan fresh milk 
+                                    dan gula aren organik. Kaya antioksidan dengan rasa earthy yang authentic.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-spa"></i>
+                                        <span>Japanese Matcha</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-seedling"></i>
+                                        <span>Organic Sugar</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-heart-pulse"></i>
+                                        <span>Antioxidant Rich</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 5 - Non-Coffee -->
+                    <div class="menu-card" data-menu="5" data-category="non-coffee">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=500&h=500&fit=crop" alt="Chocolate">
+                            <span class="menu-badge non-coffee">Non-Coffee</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Premium Hot Chocolate</h3>
+                            <p class="menu-price">Rp 45.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(5)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-5">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-mug-hot"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(5)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Hot chocolate premium</strong> dari Belgian chocolate dengan 
+                                    whipped cream dan marshmallow. Rich, creamy, dan perfect untuk comfort drink.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-candy-cane"></i>
+                                        <span>Belgian Chocolate</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-ice-cream"></i>
+                                        <span>Whipped Cream</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-heart"></i>
+                                        <span>Comfort Drink</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 6 - Food -->
+                    <div class="menu-card" data-menu="6" data-category="food">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&h=500&fit=crop" alt="Truffle Pasta">
+                            <span class="menu-badge food">Food</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Truffle Pasta</h3>
+                            <p class="menu-price">Rp 85.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(6)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-6">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-utensils"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(6)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Fettuccine al Tartufo</strong> dengan truffle oil Italia, 
+                                    parmesan cheese premium, dan jamur segar. Aroma truffle yang menggugah selera.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-globe-europe"></i>
+                                        <span>Italian Truffle</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-cheese"></i>
+                                        <span>Parmesan Cheese</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-crown"></i>
+                                        <span>Chef Special</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 7 - Food -->
+                    <div class="menu-card" data-menu="7" data-category="food">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&h=500&fit=crop" alt="Wagyu Burger">
+                            <span class="menu-badge food">Food</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Wagyu Burger</h3>
+                            <p class="menu-price">Rp 95.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(7)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-7">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-hamburger"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(7)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Premium wagyu beef patty</strong> dengan brioche bun, cheddar cheese, 
+                                    caramelized onion, dan signature sauce. Dilengkapi french fries crispy.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-drumstick-bite"></i>
+                                        <span>Wagyu Beef</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-bread-slice"></i>
+                                        <span>Brioche Bun</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-fire-flame-curved"></i>
+                                        <span>Signature Sauce</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 8 - Food -->
+                    <div class="menu-card" data-menu="8" data-category="food">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&h=500&fit=crop" alt="Salmon Steak">
+                            <span class="menu-badge food">Food</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Grilled Salmon Steak</h3>
+                            <p class="menu-price">Rp 120.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(8)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-8">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-fish"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(8)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Norwegian salmon</strong> fillet yang di-grill sempurna dengan 
+                                    herb butter, disajikan dengan mashed potato dan grilled vegetables.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-fish"></i>
+                                        <span>Norwegian Salmon</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>Perfectly Grilled</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-carrot"></i>
+                                        <span>Fresh Vegetables</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 9 - Dessert -->
+                    <div class="menu-card" data-menu="9" data-category="dessert">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&h=500&fit=crop" alt="Tiramisu">
+                            <span class="menu-badge dessert">Dessert</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Tiramisu Cake</h3>
+                            <p class="menu-price">Rp 55.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(9)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-9">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-cake-candles"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(9)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Tiramisu authentic Italia</strong> dengan savoiardi biscuit 
+                                    yang direndam espresso, mascarpone cream lembut, dan cocoa powder premium.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-cookie"></i>
+                                        <span>Savoiardi Biscuit</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-blender"></i>
+                                        <span>Mascarpone Cream</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>Made Daily</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 10 - Dessert -->
+                    <div class="menu-card" data-menu="10" data-category="dessert">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&h=500&fit=crop" alt="Cheesecake">
+                            <span class="menu-badge dessert">Dessert</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">New York Cheesecake</h3>
+                            <p class="menu-price">Rp 52.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(10)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-10">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-cheese"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(10)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Classic New York style cheesecake</strong> dengan cream cheese premium, 
+                                    graham cracker crust, dan strawberry compote topping yang segar.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-cheese"></i>
+                                        <span>Cream Cheese</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-cookie-bite"></i>
+                                        <span>Graham Crust</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-strawberry"></i>
+                                        <span>Berry Compote</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Menu Item 11 - Dessert -->
+                    <div class="menu-card" data-menu="11" data-category="dessert">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500&h=500&fit=crop" alt="Affogato">
+                            <span class="menu-badge dessert">Dessert</span>
+                        </div>
+                        <div class="menu-content">
+                            <h3 class="menu-name">Affogato al Caffe</h3>
+                            <p class="menu-price">Rp 48.000</p>
+                            <button class="menu-view-btn" onclick="toggleMenuDescription(11)">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <div class="menu-description" id="menu-desc-11">
+                                <div class="desc-header">
+                                    <h4><i class="fas fa-ice-cream"></i> Product Details</h4>
+                                    <button class="desc-close" onclick="toggleMenuDescription(11)">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                                <p class="desc-text">
+                                    <strong>Italian dessert classic</strong> - vanilla gelato premium yang 
+                                    disiram dengan double shot espresso panas. Perpaduan sempurna manis dan pahit.
+                                </p>
+                                <div class="desc-features">
+                                    <div class="feature-item">
+                                        <i class="fas fa-ice-cream"></i>
+                                        <span>Vanilla Gelato</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-coffee"></i>
+                                        <span>Double Espresso</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-flag"></i>
+                                        <span>Italian Classic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-nav next" id="menuNextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators" id="menuIndicators"></div>
+        </div>
+    </section>
+
+    <!-- Online Order Section -->
+    <section id="order" class="order-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Order Online</h2>
+                <p class="section-subtitle">Pesan sekarang untuk dine-in atau takeaway</p>
+            </div>
+
+            <div class="order-wrapper">
+                <!-- Order Type Selection -->
+                <div class="order-type-selection">
+                    <button class="order-type-btn active" data-type="dine-in" onclick="selectOrderType('dine-in')">
+                        <i class="fas fa-utensils"></i>
+                        <span>Dine In</span>
+                        <p>Makan di tempat</p>
+                    </button>
+                    <button class="order-type-btn" data-type="takeaway" onclick="selectOrderType('takeaway')">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>Takeaway</span>
+                        <p>Bungkus pulang</p>
+                    </button>
+                </div>
+
+                <!-- Order Content -->
+                <div class="order-content-wrapper">
+                    <!-- Menu Selection -->
+                    <div class="order-menu-section">
+                        <h3 class="order-section-title">
+                            <i class="fas fa-shopping-cart"></i> Select Items
+                        </h3>
+
+                        <!-- Menu Category Filter -->
+                        <div class="order-category-filter">
+                            <button class="order-category-btn active" data-category="all" onclick="filterOrderMenu('all')">
+                                All
+                            </button>
+                            <button class="order-category-btn" data-category="coffee" onclick="filterOrderMenu('coffee')">
+                                Coffee
+                            </button>
+                            <button class="order-category-btn" data-category="non-coffee" onclick="filterOrderMenu('non-coffee')">
+                                Non-Coffee
+                            </button>
+                            <button class="order-category-btn" data-category="food" onclick="filterOrderMenu('food')">
+                                Food
+                            </button>
+                            <button class="order-category-btn" data-category="dessert" onclick="filterOrderMenu('dessert')">
+                                Dessert
+                            </button>
+                        </div>
+
+                        <!-- Menu Items Grid -->
+                        <div class="order-menu-grid" id="orderMenuGrid">
+                            <!-- Coffee Items -->
+                            <div class="order-menu-item" data-category="coffee" data-id="1" data-name="Signature Espresso" data-price="45000">
+                                <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=300&h=300&fit=crop" alt="Signature Espresso">
+                                <div class="order-item-info">
+                                    <h4>Signature Espresso</h4>
+                                    <p class="order-item-price">Rp 45.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(1)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-1">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(1)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order-menu-item" data-category="coffee" data-id="2" data-name="Cappuccino Premium" data-price="50000">
+                                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&h=300&fit=crop" alt="Cappuccino Premium">
+                                <div class="order-item-info">
+                                    <h4>Cappuccino Premium</h4>
+                                    <p class="order-item-price">Rp 50.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(2)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-2">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(2)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order-menu-item" data-category="coffee" data-id="3" data-name="Caffe Latte" data-price="48000">
+                                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300&h=300&fit=crop" alt="Caffe Latte">
+                                <div class="order-item-info">
+                                    <h4>Caffe Latte</h4>
+                                    <p class="order-item-price">Rp 48.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(3)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-3">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(3)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Non-Coffee Items -->
+                            <div class="order-menu-item" data-category="non-coffee" data-id="4" data-name="Matcha Latte" data-price="48000">
+                                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=300&h=300&fit=crop" alt="Matcha Latte">
+                                <div class="order-item-info">
+                                    <h4>Matcha Latte</h4>
+                                    <p class="order-item-price">Rp 48.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(4)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-4">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(4)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order-menu-item" data-category="non-coffee" data-id="5" data-name="Premium Hot Chocolate" data-price="45000">
+                                <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=300&h=300&fit=crop" alt="Hot Chocolate">
+                                <div class="order-item-info">
+                                    <h4>Premium Hot Chocolate</h4>
+                                    <p class="order-item-price">Rp 45.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(5)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-5">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(5)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Food Items -->
+                            <div class="order-menu-item" data-category="food" data-id="6" data-name="Truffle Pasta" data-price="85000">
+                                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&h=300&fit=crop" alt="Truffle Pasta">
+                                <div class="order-item-info">
+                                    <h4>Truffle Pasta</h4>
+                                    <p class="order-item-price">Rp 85.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(6)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-6">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(6)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order-menu-item" data-category="food" data-id="7" data-name="Wagyu Burger" data-price="95000">
+                                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&h=300&fit=crop" alt="Wagyu Burger">
+                                <div class="order-item-info">
+                                    <h4>Wagyu Burger</h4>
+                                    <p class="order-item-price">Rp 95.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(7)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-7">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(7)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order-menu-item" data-category="food" data-id="8" data-name="Grilled Salmon Steak" data-price="120000">
+                                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&h=300&fit=crop" alt="Salmon Steak">
+                                <div class="order-item-info">
+                                    <h4>Grilled Salmon Steak</h4>
+                                    <p class="order-item-price">Rp 120.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(8)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-8">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(8)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Dessert Items -->
+                            <div class="order-menu-item" data-category="dessert" data-id="9" data-name="Tiramisu Cake" data-price="55000">
+                                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300&h=300&fit=crop" alt="Tiramisu">
+                                <div class="order-item-info">
+                                    <h4>Tiramisu Cake</h4>
+                                    <p class="order-item-price">Rp 55.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(9)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-9">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(9)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order-menu-item" data-category="dessert" data-id="10" data-name="New York Cheesecake" data-price="52000">
+                                <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=300&h=300&fit=crop" alt="Cheesecake">
+                                <div class="order-item-info">
+                                    <h4>New York Cheesecake</h4>
+                                    <p class="order-item-price">Rp 52.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(10)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-10">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(10)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="order-menu-item" data-category="dessert" data-id="11" data-name="Affogato al Caffe" data-price="48000">
+                                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=300&fit=crop" alt="Affogato">
+                                <div class="order-item-info">
+                                    <h4>Affogato al Caffe</h4>
+                                    <p class="order-item-price">Rp 48.000</p>
+                                    <div class="order-item-actions">
+                                        <button class="qty-btn minus" onclick="decreaseQty(11)">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <span class="qty-display" id="qty-11">0</span>
+                                        <button class="qty-btn plus" onclick="increaseQty(11)">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Order Summary Sidebar -->
+                    <div class="order-summary">
+                        <div class="order-summary-sticky">
+                            <h3 class="order-summary-title">
+                                <i class="fas fa-receipt"></i> Order Summary
+                            </h3>
+
+                            <!-- Order Type Display -->
+                            <div class="order-type-display" id="orderTypeDisplay">
+                                <i class="fas fa-utensils"></i>
+                                <span>Dine In</span>
+                            </div>
+
+                            <!-- Cart Items -->
+                            <div class="cart-items" id="cartItems">
+                                <div class="empty-cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <p>Your cart is empty</p>
+                                </div>
+                            </div>
+
+                            <!-- Order Notes -->
+                            <div class="order-notes-section">
+                                <label><i class="fas fa-comment"></i> Special Instructions (Optional)</label>
+                                <textarea id="orderNotes" placeholder="Extra spicy, no ice, etc." rows="2"></textarea>
+                            </div>
+
+                            <!-- Price Breakdown -->
+                            <div class="price-summary">
+                                <div class="price-row">
+                                    <span>Subtotal:</span>
+                                    <span id="subtotalAmount">Rp 0</span>
+                                </div>
+                                <div class="price-row" id="serviceChargeRow" style="display: none;">
+                                    <span>Service Charge (10%):</span>
+                                    <span id="serviceChargeAmount">Rp 0</span>
+                                </div>
+                                <div class="price-row" id="packagingFeeRow" style="display: none;">
+                                    <span>Packaging Fee:</span>
+                                    <span id="packagingFeeAmount">Rp 5.000</span>
+                                </div>
+                                <div class="price-row tax-row">
+                                    <span>Tax (11%):</span>
+                                    <span id="taxAmount">Rp 0</span>
+                                </div>
+                                <div class="price-row total-row">
+                                    <span>Total:</span>
+                                    <span id="totalAmount">Rp 0</span>
+                                </div>
+                            </div>
+
+                            <!-- Customer Info -->
+                            <div class="customer-info-section">
+                                <h4><i class="fas fa-user"></i> Your Information</h4>
+                                <input type="text" id="customerName" placeholder="Your Name *" required>
+                                <input type="tel" id="customerPhone" placeholder="Phone Number *" required>
+                                <input type="email" id="customerEmail" placeholder="Email (optional)">
+                                
+                                <!-- Table Number (for dine-in) -->
+                                <div id="tableNumberSection" class="table-number-section">
+                                    <label>Table Number (Optional)</label>
+                                    <input type="text" id="tableNumber" placeholder="e.g., Table 5">
+                                </div>
+
+                                <!-- Pickup Time (for takeaway) -->
+                                <div id="pickupTimeSection" class="pickup-time-section" style="display: none;">
+                                    <label>Pickup Time *</label>
+                                    <select id="pickupTime" required>
+                                        <option value="">Select Time</option>
+                                        <option value="15-min">15 minutes</option>
+                                        <option value="30-min">30 minutes</option>
+                                        <option value="45-min">45 minutes</option>
+                                        <option value="1-hour">1 hour</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Place Order Button -->
+                            <button class="btn-place-order" id="placeOrderBtn" onclick="placeOrder()">
+                                <i class="fas fa-check-circle"></i> Place Order
+                            </button>
+
+                            <p class="order-note">
+                                <i class="fas fa-info-circle"></i> You will receive confirmation via WhatsApp
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Guests Say</h2>
+                <p class="section-subtitle">Testimoni dari pelanggan setia kami</p>
+            </div>
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Tempat paling nyaman untuk meeting dan bersantai. Suasana mewah dengan harga yang worth it!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=1" alt="Sarah Johnson" class="testimonial-avatar">
+                        <div>
+                            <h4 class="testimonial-name">Sarah Johnson</h4>
+                            <p class="testimonial-role">Verified Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Cat lounge-nya amazing! Kucing-kucingnya lucu dan tempatnya bersih. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=2" alt="Michael Chen" class="testimonial-avatar">
+                        <div>
+                            <h4 class="testimonial-name">Michael Chen</h4>
+                            <p class="testimonial-role">Verified Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"View-nya breathtaking! Perfect spot untuk instagrammable moments dan quality time."</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=3" alt="Anita Wijaya" class="testimonial-avatar">
+                        <div>
+                            <h4 class="testimonial-name">Anita Wijaya</h4>
+                            <p class="testimonial-role">Verified Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loyalty Program Section -->
+    <section id="loyalty" class="loyalty-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Loyalty Rewards</h2>
+                <p class="section-subtitle">Dapatkan poin setiap pembelian dan tukar dengan rewards menarik!</p>
+            </div>
+
+            <div class="loyalty-wrapper">
+                <!-- Loyalty Benefits -->
+                <div class="loyalty-benefits">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h3>Welcome Bonus</h3>
+                        <p>Dapatkan <strong>50 poin</strong> gratis saat pertama kali join!</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>Earn Points</h3>
+                        <p>Setiap <strong>Rp 10.000</strong> belanja = <strong>1 poin</strong></p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Redeem Rewards</h3>
+                        <p>Tukar poin dengan diskon, gratis menu, dan hadiah menarik!</p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        <h3>Birthday Special</h3>
+                        <p>Gratis dessert + <strong>100 poin</strong> di bulan ulang tahunmu!</p>
+                    </div>
+                </div>
+
+                <!-- Check Your Points -->
+                <div class="loyalty-checker">
+                    <div class="checker-card">
+                        <h3><i class="fas fa-search"></i> Check Your Points</h3>
+                        <p>Masukkan nomor telepon untuk melihat poin dan riwayat pembelian Anda</p>
+                        
+                        <div class="phone-input-group">
+                            <input type="tel" id="loyaltyPhone" placeholder="Contoh: 081234567890" maxlength="15">
+                            <button class="btn-check-points" onclick="checkLoyaltyPoints()">
+                                <i class="fas fa-search"></i> Check Points
+                            </button>
+                        </div>
+
+                        <!-- Points Display (Hidden by default) -->
+                        <div class="points-display" id="pointsDisplay" style="display: none;">
+                            <div class="points-header">
+                                <div class="points-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="points-info">
+                                    <h4 id="customerNameDisplay">-</h4>
+                                    <p>Loyalty Member</p>
+                                </div>
+                            </div>
+
+                            <div class="points-balance">
+                                <div class="balance-item">
+                                    <span class="balance-label">Total Points</span>
+                                    <span class="balance-amount" id="totalPoints">0</span>
+                                </div>
+                                <div class="balance-item">
+                                    <span class="balance-label">Loyalty Code</span>
+                                    <span class="balance-code" id="loyaltyCode">-</span>
+                                </div>
+                            </div>
+
+                            <div class="points-tier" id="pointsTier">
+                                <i class="fas fa-medal"></i>
+                                <span>Bronze Member</span>
+                            </div>
+
+                            <!-- Order History -->
+                            <div class="order-history">
+                                <h4><i class="fas fa-history"></i> Recent Orders</h4>
+                                <div id="orderHistoryList">
+                                    <p class="no-orders">Belum ada riwayat pembelian</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- New Member (Hidden by default) -->
+                        <div class="new-member-welcome" id="newMemberWelcome" style="display: none;">
+                            <div class="welcome-icon">
+                                <i class="fas fa-user-plus"></i>
+                            </div>
+                            <h4>Nomor baru terdeteksi!</h4>
+                            <p>Yuk daftar sekarang dan dapatkan <strong>50 poin welcome bonus</strong>!</p>
+                            <button class="btn-join-now" onclick="showJoinForm()">
+                                <i class="fas fa-gift"></i> Join Sekarang
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Join Form (Hidden by default) -->
+                    <div class="join-form-card" id="joinFormCard" style="display: none;">
+                        <h3><i class="fas fa-user-circle"></i> Complete Your Profile</h3>
+                        <p>Lengkapi data untuk mendapatkan loyalty code Anda</p>
+
+                        <div class="form-group">
+                            <label><i class="fas fa-user"></i> Full Name</label>
+                            <input type="text" id="joinName" placeholder="Nama lengkap Anda" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label><i class="fas fa-phone"></i> Phone Number</label>
+                            <input type="tel" id="joinPhone" placeholder="081234567890" readonly>
+                        </div>
+
+                        <div class="form-group">
+                            <label><i class="fas fa-envelope"></i> Email (Optional)</label>
+                            <input type="email" id="joinEmail" placeholder="your@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label><i class="fas fa-birthday-cake"></i> Birth Date (Optional)</label>
+                            <input type="date" id="joinBirthday">
+                        </div>
+
+                        <button class="btn-complete-join" onclick="completeJoin()">
+                            <i class="fas fa-check-circle"></i> Complete Registration
+                        </button>
+
+                        <button class="btn-back-check" onclick="backToCheck()">
+                            <i class="fas fa-arrow-left"></i> Back
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Rewards Catalog -->
+                <div class="rewards-catalog">
+                    <h3><i class="fas fa-gift"></i> Available Rewards</h3>
+                    <p class="rewards-subtitle">Tukar poin Anda dengan rewards menarik ini!</p>
+
+                    <div class="rewards-grid">
+                        <div class="reward-item">
+                            <div class="reward-cost">
+                                <i class="fas fa-coins"></i> 50 Points
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=300&h=200&fit=crop" alt="Free Coffee">
+                            <div class="reward-info">
+                                <h4>Free Any Coffee</h4>
+                                <p>Redeem untuk 1 coffee gratis pilihan Anda</p>
+                            </div>
+                        </div>
+
+                        <div class="reward-item">
+                            <div class="reward-cost">
+                                <i class="fas fa-coins"></i> 100 Points
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300&h=200&fit=crop" alt="Free Dessert">
+                            <div class="reward-info">
+                                <h4>Free Dessert</h4>
+                                <p>Pilih dessert favorit Anda gratis!</p>
+                            </div>
+                        </div>
+
+                        <div class="reward-item">
+                            <div class="reward-cost">
+                                <i class="fas fa-coins"></i> 150 Points
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&h=200&fit=crop" alt="Discount">
+                            <div class="reward-info">
+                                <h4>20% OFF Voucher</h4>
+                                <p>Diskon 20% untuk total belanja Anda</p>
+                            </div>
+                        </div>
+
+                        <div class="reward-item">
+                            <div class="reward-cost">
+                                <i class="fas fa-coins"></i> 200 Points
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=300&h=200&fit=crop" alt="Cat Time">
+                            <div class="reward-info">
+                                <h4>Free Cat Lounge (1 hour)</h4>
+                                <p>Gratis 1 jam bermain dengan kucing!</p>
+                            </div>
+                        </div>
+
+                        <div class="reward-item special">
+                            <div class="reward-cost">
+                                <i class="fas fa-coins"></i> 500 Points
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&h=200&fit=crop" alt="Gold Member">
+                            <div class="reward-info">
+                                <h4>Gold Member Upgrade</h4>
+                                <p>Upgrade ke Gold Member + exclusive benefits!</p>
+                            </div>
+                        </div>
+
+                        <div class="reward-item special">
+                            <div class="reward-cost">
+                                <i class="fas fa-coins"></i> 1000 Points
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=300&h=200&fit=crop" alt="VIP Party">
+                            <div class="reward-info">
+                                <h4>Free VIP Room Party</h4>
+                                <p>3 jam VIP room + catering untuk 10 orang!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Gallery</h2>
+                <p class="section-subtitle">Lihat keindahan cafe kami</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=600&fit=crop" alt="Gallery 1">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=600&fit=crop" alt="Gallery 2">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=600&fit=crop" alt="Gallery 3">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&h=600&fit=crop" alt="Gallery 4">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&h=600&fit=crop" alt="Gallery 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=600&h=600&fit=crop" alt="Gallery 6">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&h=600&fit=crop" alt="Gallery 7">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=600&h=600&fit=crop" alt="Gallery 8">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="contact-title">Get In Touch</h2>
+                    <p class="contact-subtitle">Hubungi kami atau kunjungi cafe kami</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Jl. Premium Boulevard No. 123<br>Jakarta Selatan, 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+62 822-7833-0156</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>hello@luxecafe.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Opening Hours</h3>
+                                <p>Mon - Sun: 08:00 - 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <h3 class="form-title">Send Us a Message</h3>
+                    <div class="contact-form">
+                        <input type="text" placeholder="Your Name" class="form-input">
+                        <input type="email" placeholder="Your Email" class="form-input">
+                        <input type="tel" placeholder="Phone Number" class="form-input">
+                        <textarea placeholder="Your Message" rows="4" class="form-input"></textarea>
+                        <button class="btn-primary btn-block">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Make a Reservation</h2>
+                <p class="section-subtitle">Book your table or VIP meeting room now</p>
+            </div>
+            
+            <div class="reservation-wrapper">
+                <!-- Reservation Type Tabs -->
+                <div class="reservation-tabs">
+                    <button class="tab-btn active" data-tab="table">
+                        <i class="fas fa-utensils"></i>
+                        <span>Table Booking</span>
+                    </button>
+                    <button class="tab-btn" data-tab="vip">
+                        <i class="fas fa-briefcase"></i>
+                        <span>VIP Meeting Room</span>
+                    </button>
+                </div>
+
+                <!-- Table Booking Form -->
+                <div class="reservation-content active" id="table">
+                    <div class="reservation-form-container">
+                        <div class="reservation-image">
+                            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop" alt="Table Booking">
+                            <div class="image-overlay">
+                                <h3>Dine With Us</h3>
+                                <p>Experience luxury dining</p>
+                            </div>
+                        </div>
+                        
+                        <div class="reservation-form">
+                            <h3 class="form-title">Table Reservation</h3>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="fas fa-user"></i> Full Name</label>
+                                    <input type="text" id="tableName" placeholder="Enter your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-phone"></i> Phone Number</label>
+                                    <input type="tel" id="tablePhone" placeholder="+62 812-3456-7890" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="fas fa-calendar"></i> Date</label>
+                                    <input type="date" id="tableDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-clock"></i> Time</label>
+                                    <select id="tableTime" required>
+                                        <option value="">Select Time</option>
+                                        <option value="08:00">08:00 AM</option>
+                                        <option value="09:00">09:00 AM</option>
+                                        <option value="10:00">10:00 AM</option>
+                                        <option value="11:00">11:00 AM</option>
+                                        <option value="12:00">12:00 PM</option>
+                                        <option value="13:00">01:00 PM</option>
+                                        <option value="14:00">02:00 PM</option>
+                                        <option value="15:00">03:00 PM</option>
+                                        <option value="16:00">04:00 PM</option>
+                                        <option value="17:00">05:00 PM</option>
+                                        <option value="18:00">06:00 PM</option>
+                                        <option value="19:00">07:00 PM</option>
+                                        <option value="20:00">08:00 PM</option>
+                                        <option value="21:00">09:00 PM</option>
+                                        <option value="22:00">10:00 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="fas fa-users"></i> Number of Guests</label>
+                                    <select id="tableGuests" required>
+                                        <option value="">Select Guests</option>
+                                        <option value="1">1 Person</option>
+                                        <option value="2">2 People</option>
+                                        <option value="3">3 People</option>
+                                        <option value="4">4 People</option>
+                                        <option value="5">5 People</option>
+                                        <option value="6">6 People</option>
+                                        <option value="7">7 People</option>
+                                        <option value="8">8 People</option>
+                                        <option value="more">More than 8</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-map-marker-alt"></i> Seating Preference</label>
+                                    <select id="tableSeating" required>
+                                        <option value="">Select Area</option>
+                                        <option value="indoor">Indoor</option>
+                                        <option value="outdoor">Outdoor Terrace</option>
+                                        <option value="cat-lounge">Cat Lounge</option>
+                                        <option value="scenic">Scenic View</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label><i class="fas fa-comment"></i> Special Requests (Optional)</label>
+                                <textarea id="tableNotes" rows="3" placeholder="Any special requests? (Birthday, Anniversary, Dietary restrictions, etc.)"></textarea>
+                            </div>
+                            
+                            <button class="btn-primary btn-block btn-reserve" id="tableSubmit">
+                                <i class="fas fa-check-circle"></i> Confirm Table Booking
+                            </button>
+                            
+                            <p class="form-note">
+                                <i class="fas fa-info-circle"></i> 
+                                You will receive a confirmation via WhatsApp within 15 minutes
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIP Meeting Room Form -->
+                <div class="reservation-content" id="vip">
+                    <div class="reservation-form-container">
+                        <div class="reservation-image">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" alt="VIP Room">
+                            <div class="image-overlay">
+                                <h3>VIP Meeting Room</h3>
+                                <p>Premium space for your business</p>
+                            </div>
+                        </div>
+                        
+                        <div class="reservation-form">
+                            <h3 class="form-title">VIP Meeting Room Booking</h3>
+                            
+                            <!-- Real-Time Price Display -->
+                            <div class="price-calculator">
+                                <div class="price-display">
+                                    <div class="price-label">Estimated Total:</div>
+                                    <div class="price-amount" id="vipTotalPrice">Rp 0</div>
+                                    <div class="price-breakdown" id="vipPriceBreakdown">
+                                        Select duration and attendees to see pricing
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="fas fa-user"></i> Full Name</label>
+                                    <input type="text" id="vipName" placeholder="Enter your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-building"></i> Company Name</label>
+                                    <input type="text" id="vipCompany" placeholder="Your company (optional)">
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="fas fa-phone"></i> Phone Number</label>
+                                    <input type="tel" id="vipPhone" placeholder="+62 812-3456-7890" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-envelope"></i> Email Address</label>
+                                    <input type="email" id="vipEmail" placeholder="your@email.com" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="fas fa-calendar"></i> Date</label>
+                                    <input type="date" id="vipDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-users"></i> Number of Attendees</label>
+                                    <select id="vipAttendees" required onchange="calculateVIPPrice()">
+                                        <option value="">Select Attendees</option>
+                                        <option value="2-5">2-5 People</option>
+                                        <option value="6-10">6-10 People</option>
+                                        <option value="11-15">11-15 People</option>
+                                        <option value="16-20">16-20 People</option>
+                                        <option value="21+">21+ People</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label><i class="fas fa-clock"></i> Start Time</label>
+                                    <select id="vipStartTime" required>
+                                        <option value="">Select Start Time</option>
+                                        <option value="08:00">08:00 AM</option>
+                                        <option value="09:00">09:00 AM</option>
+                                        <option value="10:00">10:00 AM</option>
+                                        <option value="11:00">11:00 AM</option>
+                                        <option value="12:00">12:00 PM</option>
+                                        <option value="13:00">01:00 PM</option>
+                                        <option value="14:00">02:00 PM</option>
+                                        <option value="15:00">03:00 PM</option>
+                                        <option value="16:00">04:00 PM</option>
+                                        <option value="17:00">05:00 PM</option>
+                                        <option value="18:00">06:00 PM</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-hourglass-half"></i> Duration</label>
+                                    <select id="vipDuration" required onchange="calculateVIPPrice()">
+                                        <option value="">Select Duration</option>
+                                        <option value="1">1 Hour</option>
+                                        <option value="2">2 Hours</option>
+                                        <option value="3">3 Hours</option>
+                                        <option value="4">4 Hours</option>
+                                        <option value="5">5 Hours</option>
+                                        <option value="6">6 Hours</option>
+                                        <option value="8">Full Day (8 Hours)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label><i class="fas fa-cog"></i> Required Facilities (Optional)</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" value="projector" onchange="calculateVIPPrice()"> 
+                                        Projector & Screen <span class="facility-price">+Rp 100.000</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" value="whiteboard" onchange="calculateVIPPrice()"> 
+                                        Whiteboard <span class="facility-price">+Rp 50.000</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" value="video-conference" onchange="calculateVIPPrice()"> 
+                                        Video Conference Setup <span class="facility-price">+Rp 150.000</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" value="catering" onchange="calculateVIPPrice()"> 
+                                        Catering Service <span class="facility-price">+Rp 200.000</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label><i class="fas fa-comment"></i> Additional Notes</label>
+                                <textarea id="vipNotes" rows="3" placeholder="Meeting purpose, special requirements, etc."></textarea>
+                            </div>
+                            
+                            <div class="pricing-info-detailed">
+                                <h4><i class="fas fa-info-circle"></i> Pricing Information</h4>
+                                <div class="pricing-table">
+                                    <div class="pricing-row">
+                                        <span>Base Rate (per hour):</span>
+                                        <span>Rp 200.000</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span>2-5 People:</span>
+                                        <span>Standard Rate</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span>6-10 People:</span>
+                                        <span>+Rp 50.000/hour</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span>11-15 People:</span>
+                                        <span>+Rp 100.000/hour</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span>16-20 People:</span>
+                                        <span>+Rp 150.000/hour</span>
+                                    </div>
+                                    <div class="pricing-row">
+                                        <span>21+ People:</span>
+                                        <span>+Rp 200.000/hour</span>
+                                    </div>
+                                </div>
+                                <div class="pricing-notes">
+                                    <p><i class="fas fa-star"></i> <strong>Full Day Discount:</strong> Book 8+ hours get 20% OFF!</p>
+                                    <p><i class="fas fa-gift"></i> <strong>Weekend Special:</strong> Sat-Sun +10% surcharge</p>
+                                </div>
+                            </div>
+                            
+                            <button class="btn-primary btn-block btn-reserve" id="vipSubmit">
+                                <i class="fas fa-check-circle"></i> Request VIP Room Booking
+                            </button>
+                            
+                            <p class="form-note">
+                                <i class="fas fa-info-circle"></i> 
+                                Our team will contact you within 30 minutes to confirm availability and finalize pricing
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-coffee"></i>
+                    <span>Purr & Brew Café</span>
+                </div>
+                <p class="footer-text">© 2026 Purr & Brew Café. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    <a href="https://wa.me/123456789/" 
+       class="whatsapp-float" 
+       target="_blank" 
+       id="whatsappBtn">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
