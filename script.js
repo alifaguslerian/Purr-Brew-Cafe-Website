@@ -2003,7 +2003,7 @@ function placeOrder() {
         message += `*Waktu Pengambilan:* ${timeText}\n`;
     }
     
-    message += `\n*--- PESANAN ---*\n`;
+    message += `\n*-- PESANAN --*\n`;
     cart.forEach(item => {
         message += `${item.quantity}x ${item.name} @ Rp ${formatNumber(item.price)}\n`;
         message += `   Subtotal: Rp ${formatNumber(item.total)}\n`;
